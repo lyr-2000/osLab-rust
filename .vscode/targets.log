@@ -1,0 +1,309 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for x86_64-pc-msys
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Jun 17 22:12:30 2022
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = F:\software\region0\scoop\apps\openjdk17\current
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\ASUS
+# environment
+VBOX_MSI_INSTALL_PATH = F:\WINDOWS\USERTEMP
+# environment
+LOCALAPPDATA = C:\Users\ASUS\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-973b5ddf-bc94-41f5-941e-bfdbcec7b83b-sock
+# environment
+PUB_HOSTED_URL = https://pub.flutter-io.cn
+# environment
+VSCODE_CWD = G:\vboxVMS\linuxAppMount\asm
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make
+# environment
+GOPATH = F:\software\envfiles\gopath
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_76_AEPSRAABCAGHVFIZ
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+GIT_INSTALL_ROOT = F:\software\region0\scoop\apps\git\current
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\ASUS\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = /f/WINDOWS/USERTEMP
+# default
+ 
+.INCLUDE_DIRS = /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+PKG_CONFIG_PATH = F:\software\region0\mysys2\mingw64\lib\pkgconfig
+# environment
+INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+# environment
+ONEDRIVE = F:\Users\ASUS\OneDrive
+# environment
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Home China
+# makefile
+CURDIR := /g/vboxVMS/linuxAppMount/asm
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST := makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 76
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SCOOP_GLOBAL = F:\software\region0\scoop_global
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+SCOOP = F:\software\region0\scoop
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_translationsConfigFile":"C:\\Users\\ASUS\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\ASUS\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\ASUS\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"C:\\Users\\ASUS\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\corrupted.info","_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-msys
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := /bin/sh
+# environment
+HOMEPATH = \Users\ASUS
+# default
+MAKECMDGOALS := all
+# environment
+RUBYOPT = -Eutf-8
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /d/Program Files/Eclipse Foundation/jdk-11.0.12.7-hotspot/bin:/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/c/Program Files (x86)/Common Files/Oracle/Java/javapath::/Program Files (x86)/Intel/iCLS Client:/c/Program Files/Intel/iCLS Client:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files/Intel/WiFi/bin:/c/Program Files/Common Files/Intel/WirelessCommon:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files/Java/jdk1.8.0_192/bin:/c/Program Files/Microsoft SQL Server/120/Tools/Binn:/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/d/Git/cmd:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/d/npm_global/bin:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files/dotnet:/c/Program Files/PowerShell/7:/f/software/region0/scoop/apps/nodejs-lts/current/bin:/f/software/region0/scoop/apps/nodejs-lts/current:/f/software/region0/scoop/apps/openjdk17/current/bin:/c/Users/ASUS/go/bin:/f/software/region0/scoop/shims:/c/Users/ASUS/.cargo/bin:/c/Users/ASUS/AppData/Local/Microsoft/WindowsApps:/c/Users/ASUS/AppData/Local/GitHubDesktop/bin:/c/Users/ASUS/AppData/Local/Microsoft/WindowsApps:/f/software8/region_commonbin/bin:/c/Users/ASUS/AppData/Roaming/npm:/e/SoftWare8/region8/goPath/bin:/f/Users/ASUS/AppData/Local/Programs/Microsoft VS Code/bin:/:/mingw64/bin:/usr/bin:/f/software/region0/vcpkg/vcpkg:/f/software/region0/bochs/Bochs-2.7
+# environment
+COMPUTERNAME = DESKTOP-FSVN6C0
+# default
+MAKEFILES := 
+# environment
+MINGW_HOME = F:\software\region0\mysys2\mingw64
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+GOROOT = F:\software\region0\scoop\apps\go\current
+# environment
+LOGONSERVER = \\DESKTOP-FSVN6C0
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = ASUS
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.wlua;.lexe;.RB;.RBW
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-FSVN6C0
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+!G: = g:\vboxVMS\linuxAppMount\asm
+# environment
+OS = Windows_NT
+# environment
+__COMPAT_LAYER = DetectorsAppHealth
+# makefile
+.DEFAULT_GOAL := build
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-FSVN6C0
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\ASUS\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+FLUTTER_STORAGE_BASE_URL = https://storage.flutter-io.cn
+# environment
+HOME = /home/ASUS
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = /f/WINDOWS/USERTEMP
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\91424adb9bf4556c76f3f7464c71b567-1.68.1-main-sock
+# environment
+TERM = xterm-256color
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
+# environment
+PROCESSOR_REVISION = 9e09
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+# variable set hash-table stats:
+# Load=112/1024=11%, Rehash=0, Collisions=12/139=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 985413, inode 2251799813685575): 9 files, no impossibilities.
+
+# 9 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+write:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 6):
+	dd if=hello.bin of=master.img bs=512 count=1 conv=notrunc
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 4):
+	nasm -o hello.bin  hello.s
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-17 22:08:06.5605329
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 15 / storage = 117 B / avg = 7 B
+# current buf: size = 8162 B / used = 117 B / count = 15 / avg = 7 B
+
+# strcache performance: lookups = 21 / hit rate = 28%
+# hash-table stats:
+# Load=15/8192=0%, Rehash=0, Collisions=0/21=0%
+# Finished Make data base on Fri Jun 17 22:12:30 2022
+
+ 
