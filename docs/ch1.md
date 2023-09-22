@@ -1,13 +1,18 @@
 
-
 ## 创建 rust程序
 
 ```bash
-mount -t vboxsf desk Desktop
+sudo mount -t vboxsf  Desktop Desktop
+sudo apt-get update
+sudo apt install ubuntu-desktop
+sudo apt install ubuntu-desktop
+# 安装rust环境
+curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
 
+sudo apt install gcc-aarch64-linux-gnu -y
+sudo apt install qemu-system-x86
 
 ```
-
 
 ```bash
 rustup default nightly
