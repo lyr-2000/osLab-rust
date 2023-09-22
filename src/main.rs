@@ -9,9 +9,18 @@ fn panic(_info: &PanicInfo) -> ! {
     loop {}
 }
 
-#[no_mangle] // 不重整函数名
+static HELLO: &[u8] = b"Hello World!";
+
+#[no_mangle]
 pub extern "C" fn _start() -> ! {
-    // 因为编译器会寻找一个名为`_start`的函数，所以这个函数就是入口点
-    // 默认命名为`_start`
+    let vga_buffer = 0xb8000 as *mut u8;
+
+    for (i, &byte) in HELLO.iter().enumerate() {
+        unsafe {
+            *vga_buffer.offset(i as isize * 2) = byte;
+            *vga_buffer.offset(i as isize * 2 + 1) = 0xb;
+        }
+    }
+
     loop {}
 }
