@@ -25,6 +25,19 @@ cargo build --target thumbv7em-none-eabihf
 cargo install cargo-xbuild
 cargo xbuild --target x86_64-blog_os.json
 
-cargo install bootimage
+# cargo install bootimage
+cargo install bootimage --version "^0.7.7"
+cargo bootimage
 qemu-system-x86_64 -drive format=raw,file=target/x86_64-blog_os/debug/bootimage-blog_os.bin 
 ```
+
+
+## 错误如何解决
+
+
+multiple candidates for `rmeta` dependency `core` found
+
+```
+cargo update
+```
+
